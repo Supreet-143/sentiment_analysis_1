@@ -54,7 +54,7 @@ number_of_neutral_tweets = len(tweets) - (number_of_sad_tweets + number_of_happy
 
 
 neutral_fraction = number_of_neutral_tweets / len(tweets)
-print('The fraction of neutral tweets is', neutral_fraction)
+print(neutral_fraction)
 
 
 
